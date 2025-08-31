@@ -1,0 +1,31 @@
+
+dotnet Builds
+https://www.youtube.com/watch?v=HB4ZazSf32w
+Full Course: REST API with ASP.NET Core and Entity Framework | To-do List App (1 of 2)
+
+crear proyecto..
+en linea de comandos tipear..
+	dotnet new webapi -n Tarea.Api -controllers
+	cd tarea.api
+	code .
+
+
+para ejecutar la aplicación desde la terminar en vs code tipear..
+dotnet run
+
+agregar nuget package en la terminal...
+dotnet add package Microsoft.EntityFrameworkCore
+dotnet add package Microsoft.EntityFrameworkCore.Sqlserver
+dotnet add package Microsoft.EntityFrameworkCore.Design
+
+luego de crear la clase dbcontext y el connectionstring en el appsettings..correr la migración inicial..y luego crear la base y tabla
+esta linea instala las tools globlamente...si no estaba instalada..
+	dotnet tool install --global dotnet-ef
+	dotnet ef migrations add Initial
+	dotnet ef database update
+
+
+deberia tener instalada las extensiones..
+sql server
+c# Dev Kit
+Rest Client

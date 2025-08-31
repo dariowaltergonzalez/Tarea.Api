@@ -1,0 +1,38 @@
+@HostAddress = http://localhost:5268
+
+GET {{HostAddress}}/api/Tarea
+Accept: application/json
+
+###
+
+GET {{HostAddress}}/api/Tarea/2
+Accept: application/json
+
+###
+
+POST {{HostAddress}}/api/Tarea
+Accept: application/json
+Content-Type: application/json
+
+{
+  "Nombre": "Pintar la pileta",
+  "EstaCompleta": false
+}
+
+###
+
+PUT {{HostAddress}}/api/Tarea/5
+Accept: application/json
+Content-Type: application/json
+
+{
+  "Nombre": "Pintar la pileta",
+  "EstaCompleta": true
+}
+
+###
+
+DELETE {{HostAddress}}/api/Tarea/4
+Accept: application/json
+
+###
