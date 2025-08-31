@@ -1,3 +1,4 @@
+fecha de comienzo de desarrollo: 31/08/2025
 
 dotnet Builds
 https://www.youtube.com/watch?v=HB4ZazSf32w
@@ -29,3 +30,5 @@ deberia tener instalada las extensiones..
 sql server
 c# Dev Kit
 Rest Client
+
+muy buen proyecto..mas adelante ver la parte II
